@@ -1,0 +1,173 @@
+stimulus_id,stimulus,sentence,word,c1,vowel,c2,backness,height,c1_place,c2_place
+1,Scrivete 'papo' sul foglio,Scrivete X sul foglio,papo,p,a,p,central,low,labial,labial
+2,Ha detto 'papo' sei volte,Ha detto X sei volte,papo,p,a,p,central,low,labial,labial
+3,Sentivo 'papo' di nuovo,Sentivo X di nuovo,papo,p,a,p,central,low,labial,labial
+4,Ripete 'papo' da sempre,Ripete X da sempre,papo,p,a,p,central,low,labial,labial
+5,Scrivete 'pepo' sul foglio,Scrivete X sul foglio,pepo,p,e,p,front,mid-high,labial,labial
+6,Ha detto 'pepo' sei volte,Ha detto X sei volte,pepo,p,e,p,front,mid-high,labial,labial
+7,Sentivo 'pepo' di nuovo,Sentivo X di nuovo,pepo,p,e,p,front,mid-high,labial,labial
+8,Ripete 'pepo' da sempre,Ripete X da sempre,pepo,p,e,p,front,mid-high,labial,labial
+9,Scrivete 'pipo' sul foglio,Scrivete X sul foglio,pipo,p,i,p,front,high,labial,labial
+10,Ha detto 'pipo' sei volte,Ha detto X sei volte,pipo,p,i,p,front,high,labial,labial
+11,Sentivo 'pipo' di nuovo,Sentivo X di nuovo,pipo,p,i,p,front,high,labial,labial
+12,Ripete 'pipo' da sempre,Ripete X da sempre,pipo,p,i,p,front,high,labial,labial
+13,Scrivete 'popo' sul foglio,Scrivete X sul foglio,popo,p,o,p,back,mid-low,labial,labial
+14,Ha detto 'popo' sei volte,Ha detto X sei volte,popo,p,o,p,back,mid-low,labial,labial
+15,Sentivo 'popo' di nuovo,Sentivo X di nuovo,popo,p,o,p,back,mid-low,labial,labial
+16,Ripete 'popo' da sempre,Ripete X da sempre,popo,p,o,p,back,mid-low,labial,labial
+17,Scrivete 'pupo' sul foglio,Scrivete X sul foglio,pupo,p,u,p,back,high,labial,labial
+18,Ha detto 'pupo' sei volte,Ha detto X sei volte,pupo,p,u,p,back,high,labial,labial
+19,Sentivo 'pupo' di nuovo,Sentivo X di nuovo,pupo,p,u,p,back,high,labial,labial
+20,Ripete 'pupo' da sempre,Ripete X da sempre,pupo,p,u,p,back,high,labial,labial
+21,Scrivete 'pato' sul foglio,Scrivete X sul foglio,pato,p,a,t,central,low,labial,coronal
+22,Ha detto 'pato' sei volte,Ha detto X sei volte,pato,p,a,t,central,low,labial,coronal
+23,Sentivo 'pato' di nuovo,Sentivo X di nuovo,pato,p,a,t,central,low,labial,coronal
+24,Ripete 'pato' da sempre,Ripete X da sempre,pato,p,a,t,central,low,labial,coronal
+25,Scrivete 'pito' sul foglio,Scrivete X sul foglio,pito,p,i,t,front,high,labial,coronal
+26,Ha detto 'pito' sei volte,Ha detto X sei volte,pito,p,i,t,front,high,labial,coronal
+27,Sentivo 'pito' di nuovo,Sentivo X di nuovo,pito,p,i,t,front,high,labial,coronal
+28,Ripete 'pito' da sempre,Ripete X da sempre,pito,p,i,t,front,high,labial,coronal
+29,Scrivete 'poto' sul foglio,Scrivete X sul foglio,poto,p,o,t,back,mid-low,labial,coronal
+30,Ha detto 'poto' sei volte,Ha detto X sei volte,poto,p,o,t,back,mid-low,labial,coronal
+31,Sentivo 'poto' di nuovo,Sentivo X di nuovo,poto,p,o,t,back,mid-low,labial,coronal
+32,Ripete 'poto' da sempre,Ripete X da sempre,poto,p,o,t,back,mid-low,labial,coronal
+33,Scrivete 'puto' sul foglio,Scrivete X sul foglio,puto,p,u,t,back,high,labial,coronal
+34,Ha detto 'puto' sei volte,Ha detto X sei volte,puto,p,u,t,back,high,labial,coronal
+35,Sentivo 'puto' di nuovo,Sentivo X di nuovo,puto,p,u,t,back,high,labial,coronal
+36,Ripete 'puto' da sempre,Ripete X da sempre,puto,p,u,t,back,high,labial,coronal
+37,Scrivete 'paco' sul foglio,Scrivete X sul foglio,paco,p,a,k,central,low,labial,velar
+38,Ha detto 'paco' sei volte,Ha detto X sei volte,paco,p,a,k,central,low,labial,velar
+39,Sentivo 'paco' di nuovo,Sentivo X di nuovo,paco,p,a,k,central,low,labial,velar
+40,Ripete 'paco' da sempre,Ripete X da sempre,paco,p,a,k,central,low,labial,velar
+41,Scrivete 'peco' sul foglio,Scrivete X sul foglio,peco,p,e,k,front,mid-high,labial,velar
+42,Ha detto 'peco' sei volte,Ha detto X sei volte,peco,p,e,k,front,mid-high,labial,velar
+43,Sentivo 'peco' di nuovo,Sentivo X di nuovo,peco,p,e,k,front,mid-high,labial,velar
+44,Ripete 'peco' da sempre,Ripete X da sempre,peco,p,e,k,front,mid-high,labial,velar
+45,Scrivete 'pico' sul foglio,Scrivete X sul foglio,pico,p,i,k,front,high,labial,velar
+46,Ha detto 'pico' sei volte,Ha detto X sei volte,pico,p,i,k,front,high,labial,velar
+47,Sentivo 'pico' di nuovo,Sentivo X di nuovo,pico,p,i,k,front,high,labial,velar
+48,Ripete 'pico' da sempre,Ripete X da sempre,pico,p,i,k,front,high,labial,velar
+49,Scrivete 'poco' sul foglio,Scrivete X sul foglio,poco,p,o,k,back,mid-low,labial,velar
+50,Ha detto 'poco' sei volte,Ha detto X sei volte,poco,p,o,k,back,mid-low,labial,velar
+51,Sentivo 'poco' di nuovo,Sentivo X di nuovo,poco,p,o,k,back,mid-low,labial,velar
+52,Ripete 'poco' da sempre,Ripete X da sempre,poco,p,o,k,back,mid-low,labial,velar
+53,Scrivete 'puco' sul foglio,Scrivete X sul foglio,puco,p,u,k,back,high,labial,velar
+54,Ha detto 'puco' sei volte,Ha detto X sei volte,puco,p,u,k,back,high,labial,velar
+55,Sentivo 'puco' di nuovo,Sentivo X di nuovo,puco,p,u,k,back,high,labial,velar
+56,Ripete 'puco' da sempre,Ripete X da sempre,puco,p,u,k,back,high,labial,velar
+57,Scrivete 'tapo' sul foglio,Scrivete X sul foglio,tapo,t,a,p,central,low,coronal,labial
+58,Ha detto 'tapo' sei volte,Ha detto X sei volte,tapo,t,a,p,central,low,coronal,labial
+59,Sentivo 'tapo' di nuovo,Sentivo X di nuovo,tapo,t,a,p,central,low,coronal,labial
+60,Ripete 'tapo' da sempre,Ripete X da sempre,tapo,t,a,p,central,low,coronal,labial
+61,Scrivete 'tepo' sul foglio,Scrivete X sul foglio,tepo,t,e,p,front,mid-high,coronal,labial
+62,Ha detto 'tepo' sei volte,Ha detto X sei volte,tepo,t,e,p,front,mid-high,coronal,labial
+63,Sentivo 'tepo' di nuovo,Sentivo X di nuovo,tepo,t,e,p,front,mid-high,coronal,labial
+64,Ripete 'tepo' da sempre,Ripete X da sempre,tepo,t,e,p,front,mid-high,coronal,labial
+65,Scrivete 'tipo' sul foglio,Scrivete X sul foglio,tipo,t,i,p,front,high,coronal,labial
+66,Ha detto 'tipo' sei volte,Ha detto X sei volte,tipo,t,i,p,front,high,coronal,labial
+67,Sentivo 'tipo' di nuovo,Sentivo X di nuovo,tipo,t,i,p,front,high,coronal,labial
+68,Ripete 'tipo' da sempre,Ripete X da sempre,tipo,t,i,p,front,high,coronal,labial
+69,Scrivete 'topo' sul foglio,Scrivete X sul foglio,topo,t,o,p,back,mid-low,coronal,labial
+70,Ha detto 'topo' sei volte,Ha detto X sei volte,topo,t,o,p,back,mid-low,coronal,labial
+71,Sentivo 'topo' di nuovo,Sentivo X di nuovo,topo,t,o,p,back,mid-low,coronal,labial
+72,Ripete 'topo' da sempre,Ripete X da sempre,topo,t,o,p,back,mid-low,coronal,labial
+73,Scrivete 'tupo' sul foglio,Scrivete X sul foglio,tupo,t,u,p,back,high,coronal,labial
+74,Ha detto 'tupo' sei volte,Ha detto X sei volte,tupo,t,u,p,back,high,coronal,labial
+75,Sentivo 'tupo' di nuovo,Sentivo X di nuovo,tupo,t,u,p,back,high,coronal,labial
+76,Ripete 'tupo' da sempre,Ripete X da sempre,tupo,t,u,p,back,high,coronal,labial
+77,Scrivete 'tato' sul foglio,Scrivete X sul foglio,tato,t,a,t,central,low,coronal,coronal
+78,Ha detto 'tato' sei volte,Ha detto X sei volte,tato,t,a,t,central,low,coronal,coronal
+79,Sentivo 'tato' di nuovo,Sentivo X di nuovo,tato,t,a,t,central,low,coronal,coronal
+80,Ripete 'tato' da sempre,Ripete X da sempre,tato,t,a,t,central,low,coronal,coronal
+81,Scrivete 'teto' sul foglio,Scrivete X sul foglio,teto,t,e,t,front,mid-high,coronal,coronal
+82,Ha detto 'teto' sei volte,Ha detto X sei volte,teto,t,e,t,front,mid-high,coronal,coronal
+83,Sentivo 'teto' di nuovo,Sentivo X di nuovo,teto,t,e,t,front,mid-high,coronal,coronal
+84,Ripete 'teto' da sempre,Ripete X da sempre,teto,t,e,t,front,mid-high,coronal,coronal
+85,Scrivete 'tito' sul foglio,Scrivete X sul foglio,tito,t,i,t,front,high,coronal,coronal
+86,Ha detto 'tito' sei volte,Ha detto X sei volte,tito,t,i,t,front,high,coronal,coronal
+87,Sentivo 'tito' di nuovo,Sentivo X di nuovo,tito,t,i,t,front,high,coronal,coronal
+88,Ripete 'tito' da sempre,Ripete X da sempre,tito,t,i,t,front,high,coronal,coronal
+89,Scrivete 'toto' sul foglio,Scrivete X sul foglio,toto,t,o,t,back,mid-low,coronal,coronal
+90,Ha detto 'toto' sei volte,Ha detto X sei volte,toto,t,o,t,back,mid-low,coronal,coronal
+91,Sentivo 'toto' di nuovo,Sentivo X di nuovo,toto,t,o,t,back,mid-low,coronal,coronal
+92,Ripete 'toto' da sempre,Ripete X da sempre,toto,t,o,t,back,mid-low,coronal,coronal
+93,Scrivete 'tuto' sul foglio,Scrivete X sul foglio,tuto,t,u,t,back,high,coronal,coronal
+94,Ha detto 'tuto' sei volte,Ha detto X sei volte,tuto,t,u,t,back,high,coronal,coronal
+95,Sentivo 'tuto' di nuovo,Sentivo X di nuovo,tuto,t,u,t,back,high,coronal,coronal
+96,Ripete 'tuto' da sempre,Ripete X da sempre,tuto,t,u,t,back,high,coronal,coronal
+97,Scrivete 'taco' sul foglio,Scrivete X sul foglio,taco,t,a,k,central,low,coronal,velar
+98,Ha detto 'taco' sei volte,Ha detto X sei volte,taco,t,a,k,central,low,coronal,velar
+99,Sentivo 'taco' di nuovo,Sentivo X di nuovo,taco,t,a,k,central,low,coronal,velar
+100,Ripete 'taco' da sempre,Ripete X da sempre,taco,t,a,k,central,low,coronal,velar
+101,Scrivete 'teco' sul foglio,Scrivete X sul foglio,teco,t,e,k,front,mid-high,coronal,velar
+102,Ha detto 'teco' sei volte,Ha detto X sei volte,teco,t,e,k,front,mid-high,coronal,velar
+103,Sentivo 'teco' di nuovo,Sentivo X di nuovo,teco,t,e,k,front,mid-high,coronal,velar
+104,Ripete 'teco' da sempre,Ripete X da sempre,teco,t,e,k,front,mid-high,coronal,velar
+105,Scrivete 'tico' sul foglio,Scrivete X sul foglio,tico,t,i,k,front,high,coronal,velar
+106,Ha detto 'tico' sei volte,Ha detto X sei volte,tico,t,i,k,front,high,coronal,velar
+107,Sentivo 'tico' di nuovo,Sentivo X di nuovo,tico,t,i,k,front,high,coronal,velar
+108,Ripete 'tico' da sempre,Ripete X da sempre,tico,t,i,k,front,high,coronal,velar
+109,Scrivete 'toco' sul foglio,Scrivete X sul foglio,toco,t,o,k,back,mid-low,coronal,velar
+110,Ha detto 'toco' sei volte,Ha detto X sei volte,toco,t,o,k,back,mid-low,coronal,velar
+111,Sentivo 'toco' di nuovo,Sentivo X di nuovo,toco,t,o,k,back,mid-low,coronal,velar
+112,Ripete 'toco' da sempre,Ripete X da sempre,toco,t,o,k,back,mid-low,coronal,velar
+113,Scrivete 'tuco' sul foglio,Scrivete X sul foglio,tuco,t,u,k,back,high,coronal,velar
+114,Ha detto 'tuco' sei volte,Ha detto X sei volte,tuco,t,u,k,back,high,coronal,velar
+115,Sentivo 'tuco' di nuovo,Sentivo X di nuovo,tuco,t,u,k,back,high,coronal,velar
+116,Ripete 'tuco' da sempre,Ripete X da sempre,tuco,t,u,k,back,high,coronal,velar
+117,Scrivete 'capo' sul foglio,Scrivete X sul foglio,capo,k,a,p,central,low,velar,labial
+118,Ha detto 'capo' sei volte,Ha detto X sei volte,capo,k,a,p,central,low,velar,labial
+119,Sentivo 'capo' di nuovo,Sentivo X di nuovo,capo,k,a,p,central,low,velar,labial
+120,Ripete 'capo' da sempre,Ripete X da sempre,capo,k,a,p,central,low,velar,labial
+121,Scrivete 'chepo' sul foglio,Scrivete X sul foglio,chepo,k,e,p,front,mid-high,velar,labial
+122,Ha detto 'chepo' sei volte,Ha detto X sei volte,chepo,k,e,p,front,mid-high,velar,labial
+123,Sentivo 'chepo' di nuovo,Sentivo X di nuovo,chepo,k,e,p,front,mid-high,velar,labial
+124,Ripete 'chepo' da sempre,Ripete X da sempre,chepo,k,e,p,front,mid-high,velar,labial
+125,Scrivete 'chipo' sul foglio,Scrivete X sul foglio,chipo,k,i,p,front,high,velar,labial
+126,Ha detto 'chipo' sei volte,Ha detto X sei volte,chipo,k,i,p,front,high,velar,labial
+127,Sentivo 'chipo' di nuovo,Sentivo X di nuovo,chipo,k,i,p,front,high,velar,labial
+128,Ripete 'chipo' da sempre,Ripete X da sempre,chipo,k,i,p,front,high,velar,labial
+129,Scrivete 'copo' sul foglio,Scrivete X sul foglio,copo,k,o,p,back,mid-low,velar,labial
+130,Ha detto 'copo' sei volte,Ha detto X sei volte,copo,k,o,p,back,mid-low,velar,labial
+131,Sentivo 'copo' di nuovo,Sentivo X di nuovo,copo,k,o,p,back,mid-low,velar,labial
+132,Ripete 'copo' da sempre,Ripete X da sempre,copo,k,o,p,back,mid-low,velar,labial
+133,Scrivete 'cupo' sul foglio,Scrivete X sul foglio,cupo,k,u,p,back,high,velar,labial
+134,Ha detto 'cupo' sei volte,Ha detto X sei volte,cupo,k,u,p,back,high,velar,labial
+135,Sentivo 'cupo' di nuovo,Sentivo X di nuovo,cupo,k,u,p,back,high,velar,labial
+136,Ripete 'cupo' da sempre,Ripete X da sempre,cupo,k,u,p,back,high,velar,labial
+137,Scrivete 'cato' sul foglio,Scrivete X sul foglio,cato,k,a,t,central,low,velar,coronal
+138,Ha detto 'cato' sei volte,Ha detto X sei volte,cato,k,a,t,central,low,velar,coronal
+139,Sentivo 'cato' di nuovo,Sentivo X di nuovo,cato,k,a,t,central,low,velar,coronal
+140,Ripete 'cato' da sempre,Ripete X da sempre,cato,k,a,t,central,low,velar,coronal
+141,Scrivete 'cheto' sul foglio,Scrivete X sul foglio,cheto,k,e,t,front,mid-high,velar,coronal
+142,Ha detto 'cheto' sei volte,Ha detto X sei volte,cheto,k,e,t,front,mid-high,velar,coronal
+143,Sentivo 'cheto' di nuovo,Sentivo X di nuovo,cheto,k,e,t,front,mid-high,velar,coronal
+144,Ripete 'cheto' da sempre,Ripete X da sempre,cheto,k,e,t,front,mid-high,velar,coronal
+145,Scrivete 'chito' sul foglio,Scrivete X sul foglio,chito,k,i,t,front,high,velar,coronal
+146,Ha detto 'chito' sei volte,Ha detto X sei volte,chito,k,i,t,front,high,velar,coronal
+147,Sentivo 'chito' di nuovo,Sentivo X di nuovo,chito,k,i,t,front,high,velar,coronal
+148,Ripete 'chito' da sempre,Ripete X da sempre,chito,k,i,t,front,high,velar,coronal
+149,Scrivete 'coto' sul foglio,Scrivete X sul foglio,coto,k,o,t,back,mid-low,velar,coronal
+150,Ha detto 'coto' sei volte,Ha detto X sei volte,coto,k,o,t,back,mid-low,velar,coronal
+151,Sentivo 'coto' di nuovo,Sentivo X di nuovo,coto,k,o,t,back,mid-low,velar,coronal
+152,Ripete 'coto' da sempre,Ripete X da sempre,coto,k,o,t,back,mid-low,velar,coronal
+153,Scrivete 'cuto' sul foglio,Scrivete X sul foglio,cuto,k,u,t,back,high,velar,coronal
+154,Ha detto 'cuto' sei volte,Ha detto X sei volte,cuto,k,u,t,back,high,velar,coronal
+155,Sentivo 'cuto' di nuovo,Sentivo X di nuovo,cuto,k,u,t,back,high,velar,coronal
+156,Ripete 'cuto' da sempre,Ripete X da sempre,cuto,k,u,t,back,high,velar,coronal
+157,Scrivete 'checo' sul foglio,Scrivete X sul foglio,checo,k,e,k,front,mid-high,velar,velar
+158,Ha detto 'checo' sei volte,Ha detto X sei volte,checo,k,e,k,front,mid-high,velar,velar
+159,Sentivo 'checo' di nuovo,Sentivo X di nuovo,checo,k,e,k,front,mid-high,velar,velar
+160,Ripete 'checo' da sempre,Ripete X da sempre,checo,k,e,k,front,mid-high,velar,velar
+161,Scrivete 'chico' sul foglio,Scrivete X sul foglio,chico,k,i,k,front,high,velar,velar
+162,Ha detto 'chico' sei volte,Ha detto X sei volte,chico,k,i,k,front,high,velar,velar
+163,Sentivo 'chico' di nuovo,Sentivo X di nuovo,chico,k,i,k,front,high,velar,velar
+164,Ripete 'chico' da sempre,Ripete X da sempre,chico,k,i,k,front,high,velar,velar
+165,Scrivete 'coco' sul foglio,Scrivete X sul foglio,coco,k,o,k,back,mid-low,velar,velar
+166,Ha detto 'coco' sei volte,Ha detto X sei volte,coco,k,o,k,back,mid-low,velar,velar
+167,Sentivo 'coco' di nuovo,Sentivo X di nuovo,coco,k,o,k,back,mid-low,velar,velar
+168,Ripete 'coco' da sempre,Ripete X da sempre,coco,k,o,k,back,mid-low,velar,velar
+169,Scrivete 'cuco' sul foglio,Scrivete X sul foglio,cuco,k,u,k,back,high,velar,velar
+170,Ha detto 'cuco' sei volte,Ha detto X sei volte,cuco,k,u,k,back,high,velar,velar
+171,Sentivo 'cuco' di nuovo,Sentivo X di nuovo,cuco,k,u,k,back,high,velar,velar
+172,Ripete 'cuco' da sempre,Ripete X da sempre,cuco,k,u,k,back,high,velar,velar
