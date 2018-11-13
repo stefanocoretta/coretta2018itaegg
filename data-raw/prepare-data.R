@@ -1,4 +1,5 @@
 library(tidyverse)
+library(usethis)
 
 stimuli <- read_csv("data-raw/stimuli.csv")
 
@@ -13,3 +14,5 @@ ita_egg <- read_csv("data-raw/measurements.csv", na = "--undefined--") %>%
     vot = (voice_ons - c1_rel) * 1000,
     voi_clo = (voice_off - c2_ons) * 1000
   )
+
+use_data(ita_egg, overwrite = TRUE)
