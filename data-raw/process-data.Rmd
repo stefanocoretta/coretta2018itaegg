@@ -24,7 +24,7 @@ system("pandoc -f gfm -o ./data-raw/code/scripts.pdf ./data-raw/code/scripts.pra
 # Run scripts
 
 ```{r run}
-praat_run("./code/merge-textgrids.praat")
-praat_run("./code/extract-measurements.praat")
+praat_run("./data-raw/code/merge-textgrids.praat")
+praat_run("./data-raw/code/extract-measurements.praat")
 ```
 
