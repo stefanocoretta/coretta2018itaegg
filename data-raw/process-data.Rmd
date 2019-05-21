@@ -1,0 +1,30 @@
+---
+title: "Process data"
+author: "Stefano Coretta"
+date: "13/11/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
+knitr::opts_knit$set(root.dir = here::here())
+library(speakr)
+```
+
+# Tangle and weave
+
+```{r tangle}
+lmt("./data-raw/code/scripts.praat.md")
+```
+
+```{r weave}
+system("pandoc -f gfm -o ./data-raw/code/scripts.pdf ./data-raw/code/scripts.praat.md -N --syntax-definition=/Users/stefano/.pandoc/pandoc-praat/praat.xml --highlight-style=/Users/stefano/.pandoc/flamenco.theme --metadata-file=./data-raw/code/scripts.yaml")
+```
+
+# Run scripts
+
+```{r run}
+praat_run("./code/merge-textgrids.praat")
+praat_run("./code/extract-measurements.praat")
+```
+

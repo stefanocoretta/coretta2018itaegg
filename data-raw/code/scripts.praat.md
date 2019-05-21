@@ -1,3 +1,53 @@
+# Pre-process data for force-alignment
+
+```praat filter.praat
+<<<script header>>>
+
+raw$ = "../data/raw/audio"
+derived$ = "../data/derived"
+Create Strings as file list: "file_list", "'raw$'/*.wav"
+files = Get number of strings
+
+<<<file loop>>>
+```
+
+The files in `raw/` are read and processed for alignment.
+
+```praat "file loop"
+for file from 1 to files
+    select Strings file_list
+    file$ = Get string: file
+    sound = Read from file: "'raw$'/'file$'"
+    file_name$ = selected$("Sound")
+
+    # The EGG output signal is inverted
+    Multiply: -1
+
+    # Filter audio
+    audio = Extract one channel: 1
+
+    audio_f = Filter (pass Hann band): 40, 10000, 100
+
+    Save as WAV file: "'derived$'/audio/'file_name$'.wav"
+
+    removeObject: audio, audio_f
+
+    # Filter EGG
+    selectObject: sound
+
+    egg = Extract one channel: 2
+
+    egg_f = Filter (pass Hann band): 40, 10000, 100
+
+    Save as WAV file: "'derived$'/egg/'file_name$'_egg.wav"
+
+    removeObject: egg, egg_f
+endfor
+```
+
+For each file, read the file, extract the left channel (audio), filter within range 40-10000 Hz, save the file in `derived/`.
+
+
 # Stop release detection
 
 This script detects the release of C1 and C2. The algorythm is based on @avanthapadmanabha2014.
@@ -441,7 +491,7 @@ appendInfoLine: "'newline$'Done!"
 
 ```praat "align loop"
 stereo$ = "../data/raw/stereo"
-result_file$ = "../data/datasets/measurements.csv"
+result_file$ = "../datasets/measurements.csv"
 header$ = "speaker,ipu,stimulus,sentence_ons,sentence_off,word_ons,word_off,v1_ons,c2_ons,v2_ons,voice_ons,voice_off,c1_rel,c2_rel"
 
 writeFileLine: result_file$, header$
@@ -576,5 +626,11 @@ endfor
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+######################################
+#
+# !!! WARNING !!!
+#
+# This script is generated automatically, DO NOT EDIT
+#
 ######################################
 ```

@@ -24,6 +24,12 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 ######################################
+#
+# !!! WARNING !!!
+#
+# This script is generated automatically, DO NOT EDIT
+#
+######################################
 
 stereo$ = "../data/raw/stereo"
 egg$ = "../data/raw/egg"

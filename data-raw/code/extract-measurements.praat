@@ -24,9 +24,15 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 ######################################
+#
+# !!! WARNING !!!
+#
+# This script is generated automatically, DO NOT EDIT
+#
+######################################
 
 stereo$ = "../data/raw/stereo"
-result_file$ = "../data/datasets/measurements.csv"
+result_file$ = "../datasets/measurements.csv"
 header$ = "speaker,ipu,stimulus,sentence_ons,sentence_off,word_ons,word_off,v1_ons,c2_ons,v2_ons,voice_ons,voice_off,c1_rel,c2_rel"
 
 writeFileLine: result_file$, header$
