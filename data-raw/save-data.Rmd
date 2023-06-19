@@ -41,9 +41,20 @@ ita_egg <- read_csv("data-raw/datasets/measurements.csv", na = "--undefined--") 
   )
 ```
 
+```{r}
+formants_files <- list.files("data-raw/data/raw/formants/", "aggregated_data.csv", recursive = TRUE, full.names = TRUE)
+
+formants <- map_df(formants_files, read_csv) %>%
+  mutate(
+    speaker = str_sub(file, 1, 4)
+  )
+```
+
+
 # Use data
 
 ```{r use-data}
 use_data(ita_egg, overwrite = TRUE)
+use_data(formants, overwrite = TRUE)
 ```
 

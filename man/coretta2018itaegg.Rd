@@ -3,7 +3,6 @@
 \docType{package}
 \name{coretta2018itaegg}
 \alias{coretta2018itaegg}
-\alias{coretta2018itaegg-package}
 \title{coretta2018itaegg: Data Package of Vowel duration, voicing duration, and
 vowel height: Acoustic and articulatory data from Italian (Coretta 2018)}
 \description{

@@ -41,3 +41,11 @@
 #'   \item{\code{rel_rel}}{duration of C1 release to C2 release}
 #' }
 "ita_egg"
+
+#' Data on vowel formants and duration in Italian.
+#'
+#' A dataset with duration and formants measures from 19 speakers of Italian.
+#'
+#' @docType data
+#' @format A tibble with 3053 observations and 24 variables.
+"formants"

@@ -4,7 +4,8 @@
 \name{ita_egg}
 \alias{ita_egg}
 \title{Data on vowel duration, voicing duration, and vowel height in Italian.}
-\format{A tibble with 3268 observations and 31 variables.
+\format{
+A tibble with 3268 observations and 31 variables.
 \describe{
   \item{\code{speaker}}{speaker's ID}
   \item{\code{ipu}}{IPU index}
@@ -40,7 +41,8 @@
   \item{\code{vot}}{duration of Voice Onset Time in milliseconds}
   \item{\code{voi_clo}}{duration of voicing during C2 closure in milliseconds}
   \item{\code{rel_rel}}{duration of C1 release to C2 release}
-}}
+}
+}
 \usage{
 ita_egg
 }
