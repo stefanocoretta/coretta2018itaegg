@@ -47,5 +47,5 @@
 #' A dataset with duration and formants measures from 19 speakers of Italian.
 #'
 #' @docType data
-#' @format A tibble with 3053 observations and 24 variables.
+#' @format A tibble with 3053 observations and 38 variables.
 "formants"

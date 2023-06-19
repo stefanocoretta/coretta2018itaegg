@@ -18,7 +18,7 @@ library(usethis)
 
 # Read data
 
-```{r read}
+```{r read-egg}
 stimuli <- read_csv("data-raw/datasets/stimuli.csv")
 
 ita_egg <- read_csv("data-raw/datasets/measurements.csv", na = "--undefined--") %>%
@@ -41,13 +41,21 @@ ita_egg <- read_csv("data-raw/datasets/measurements.csv", na = "--undefined--") 
   )
 ```
 
-```{r}
+```{r read-formants}
 formants_files <- list.files("data-raw/data/raw/formants/", "aggregated_data.csv", recursive = TRUE, full.names = TRUE)
 
 formants <- map_df(formants_files, read_csv) %>%
   mutate(
     speaker = str_sub(file, 1, 4)
   )
+
+info_files <- list.files("data-raw/data/raw/formants/", "segmentation_info.csv", recursive = TRUE, full.names = TRUE)
+
+formants_info <- map_df(info_files, read_csv) %>%
+  rename("speaker" = inputfile, "file" = "outputfile")
+
+formants <- left_join(formants, formants_info, by = c("file", "speaker")) %>%
+  rename("duration" = duration.y)
 ```
 
 

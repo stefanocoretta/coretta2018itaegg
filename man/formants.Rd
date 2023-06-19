@@ -5,7 +5,7 @@
 \alias{formants}
 \title{Data on vowel formants and duration in Italian.}
 \format{
-A tibble with 3053 observations and 24 variables.
+A tibble with 3053 observations and 38 variables.
 }
 \usage{
 formants
