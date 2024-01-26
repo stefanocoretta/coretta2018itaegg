@@ -21,7 +21,7 @@ library(usethis)
 ```{r read-egg}
 stimuli <- read_csv("data-raw/datasets/stimuli.csv")
 
-ita_egg <- read_csv("data-raw/datasets/measurements.csv", na = "--undefined--") %>%
+ita_egg_raw <- read_csv("data-raw/datasets/measurements.csv", na = "--undefined--") %>%
   full_join(y = stimuli) %>%
   mutate(
     v1_duration = (c2_ons - v1_ons) * 1000,
@@ -56,6 +56,15 @@ formants_info <- map_df(info_files, read_csv) %>%
 
 formants <- left_join(formants, formants_info, by = c("file", "speaker")) %>%
   rename("duration" = duration.y)
+
+formants_ids <- read_csv("data-raw/datasets/formants-ids.csv")
+
+formants <- left_join(formants, formants_ids)
+```
+
+```{r}
+ita_egg <- left_join(ita_egg_raw, formants) %>%
+  select(speaker:f0, cutoff:f35)
 ```
 
 

@@ -3,7 +3,7 @@
 #' A dataset with durational measures from 19 speakers of Italian.
 #'
 #' @docType data
-#' @format A tibble with 3268 observations and 31 variables.
+#' @format A tibble with 3268 observations and 52 variables.
 #' \describe{
 #'   \item{\code{speaker}}{speaker's ID}
 #'   \item{\code{ipu}}{IPU index}
@@ -39,6 +39,24 @@
 #'   \item{\code{vot}}{duration of Voice Onset Time in milliseconds}
 #'   \item{\code{voi_clo}}{duration of voicing during C2 closure in milliseconds}
 #'   \item{\code{rel_rel}}{duration of C1 release to C2 release}
+#'   \item{\code{file}}{file name used in formant tracking with FastTrack}
+#'   \item{\code{fo}}{f0 at vowel mid-point}
+#'   \item{\code{cutoff}}{higher frequency cut-off used with FastTrack}
+#'   \item{\code{f11}}{F1 at timepoint 1}
+#'   \item{\code{f21}}{F2 at timepoint 1}
+#'   \item{\code{f31}}{F3 at timepoint 1}
+#'   \item{\code{f12}}{F1 at timepoint 2}
+#'   \item{\code{f22}}{F2 at timepoint 2}
+#'   \item{\code{f32}}{F3 at timepoint 2}
+#'   \item{\code{f13}}{F1 at timepoint 3}
+#'   \item{\code{f23}}{F2 at timepoint 3}
+#'   \item{\code{f33}}{F3 at timepoint 3}
+#'   \item{\code{f14}}{F1 at timepoint 4}
+#'   \item{\code{f24}}{F2 at timepoint 4}
+#'   \item{\code{f34}}{F3 at timepoint 4}
+#'   \item{\code{f15}}{F1 at timepoint 5}
+#'   \item{\code{f25}}{F2 at timepoint 5}
+#'   \item{\code{f35}}{F3 at timepoint 5}
 #' }
 "ita_egg"
 

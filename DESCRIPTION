@@ -1,7 +1,7 @@
 Package: coretta2018itaegg
 Type: Package
 Title: Data Package of Vowel duration, voicing duration, and vowel height: Acoustic and articulatory data from Italian (Coretta 2018)
-Version: 1.0.0
+Version: 1.0.1
 Date: 2024-01-26
 Authors@R: 
     person(given = "Stefano",
