@@ -33,6 +33,7 @@ ita_egg_raw <- read_csv("data-raw/datasets/measurements.csv", na = "--undefined-
     voice_duration = (voice_off - voice_ons) * 1000,
     vot = (voice_ons - c1_rel) * 1000,
     voi_clo = (voice_off - c2_ons) * 1000,
+    voi_clo_prop = voi_clo / c2_clos_duration,
     rel_rel = (c2_rel - c1_rel) * 1000,
     vowel = factor(vowel, levels = c("i", "e", "a", "o", "u")),
     height = factor(height, levels = c("low", "mid-low", "mid-high", "high")),
@@ -63,6 +64,8 @@ formants <- left_join(formants, formants_ids)
 ```
 
 ```{r}
+#| label: ita_egg
+
 ita_egg <- left_join(ita_egg_raw, formants) %>%
   select(speaker:f0, cutoff:f35)
 ```
